@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
