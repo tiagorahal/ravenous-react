@@ -2,7 +2,7 @@
 
  > A client-side React application, utilizing the Yelp API to search for local businesses.
 
-![Screenshot]('./screenshot.png')
+![Screenshot](./screenshot.png)
 
 ## Live Version
 
