@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React from 'react';
 import './App.css';
-
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 
@@ -13,7 +13,7 @@ const business = {
   zipCode: '10101',
   category: 'Italian',
   rating: 4.5,
-  reviewCount: 90
+  reviewCount: 90,
 };
 
 const businesses = [
@@ -22,7 +22,7 @@ const businesses = [
   business,
   business,
   business,
-  business
+  business,
 ];
 
 class App extends React.Component {

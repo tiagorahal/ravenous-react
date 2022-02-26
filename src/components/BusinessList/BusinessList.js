@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React from 'react';
 import './BusinessList.css';
-
 import Business from '../Business/Business';
 
 class BusinessList extends React.Component {
@@ -8,9 +8,7 @@ class BusinessList extends React.Component {
     return (
       <div className="BusinessList">
         {
-          this.props.businesses.map(business => {
-            return <Business business={business} />
-          })
+          this.props.businesses.map((business) => <Business business={business} />)
         }
       </div>
     );
